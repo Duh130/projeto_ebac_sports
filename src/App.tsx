@@ -5,7 +5,6 @@ import Produtos from './containers/Produtos'
 import { GlobalStyle } from './styles'
 import { Provider } from 'react-redux'
 import { store } from './store'
-import ProdutosComponent from './containers/Produtos'
 export type Produto = {
   id: number
   nome: string
